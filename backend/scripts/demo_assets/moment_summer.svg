@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c4a6e"/>
+      <stop offset="55%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fde68a" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#f59e0b" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef3c7" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#fef3c7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#075985"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky background -->
+  <rect width="1200" height="400" fill="url(#bg)"/>
+
+  <!-- Sun glow (large halo) -->
+  <circle cx="900" cy="150" r="180" fill="url(#glow)"/>
+
+  <!-- Sun disc -->
+  <circle cx="900" cy="150" r="80" fill="url(#sun)"/>
+
+  <!-- Sun rays (subtle) -->
+  <g stroke="#fde68a" stroke-width="2" opacity="0.35">
+    <line x1="900" y1="50" x2="900" y2="20"/>
+    <line x1="900" y1="250" x2="900" y2="280"/>
+    <line x1="800" y1="150" x2="770" y2="150"/>
+    <line x1="1000" y1="150" x2="1030" y2="150"/>
+    <line x1="829" y1="79" x2="808" y2="58"/>
+    <line x1="971" y1="221" x2="992" y2="242"/>
+    <line x1="971" y1="79" x2="992" y2="58"/>
+    <line x1="829" y1="221" x2="808" y2="242"/>
+  </g>
+
+  <!-- Sea -->
+  <rect x="0" y="280" width="1200" height="120" fill="url(#sea)"/>
+
+  <!-- Wave 1 -->
+  <path d="M0,280 Q150,265 300,280 Q450,295 600,280 Q750,265 900,280 Q1050,295 1200,280 L1200,400 L0,400 Z"
+        fill="#0369a1" opacity="0.6"/>
+
+  <!-- Wave 2 -->
+  <path d="M0,295 Q200,282 400,295 Q600,308 800,295 Q1000,282 1200,295 L1200,400 L0,400 Z"
+        fill="#075985" opacity="0.5"/>
+
+  <!-- Sand -->
+  <path d="M0,350 Q300,335 600,350 Q900,365 1200,350 L1200,400 L0,400 Z"
+        fill="url(#sand)" opacity="0.9"/>
+
+  <!-- Horizon shimmer -->
+  <line x1="0" y1="280" x2="1200" y2="280" stroke="#bae6fd" stroke-width="1" opacity="0.4"/>
+</svg>

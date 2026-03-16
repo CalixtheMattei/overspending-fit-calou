@@ -1,0 +1,65 @@
+# Demo overlay — public read-only instance with fake data.
+#
+# Usage:
+#   docker compose -f docker-compose.yml -f docker-compose.demo.yml \
+#     --env-file /etc/overspending-fit-calou/demo.env \
+#     -p expense-demo up --build -d
+
+services:
+  db:
+    volumes:
+      - db_demo:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: personal_expense_demo
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD_DEMO_ADMIN:?Set POSTGRES_PASSWORD_DEMO_ADMIN}
+
+  migrate:
+    environment:
+      DATABASE_URL: "postgresql+psycopg://postgres:${POSTGRES_PASSWORD_DEMO_ADMIN:?}@db:5432/personal_expense_demo"
+
+  seed:
+    build: ./backend
+    environment:
+      DATABASE_URL: "postgresql+psycopg://postgres:${POSTGRES_PASSWORD_DEMO_ADMIN:?}@db:5432/personal_expense_demo"
+      DEMO_APP_PASSWORD: ${POSTGRES_PASSWORD_DEMO_APP:?Set POSTGRES_PASSWORD_DEMO_APP}
+      AVATARS_STORAGE_DIR: /app/data/avatars
+      # Optional: bind-mount a real avatar image and point to it here.
+      # Convention: place the file at /etc/overspending-fit-calou/demo_avatar.jpg on the host,
+      # then set DEMO_AVATAR_HOST_PATH in demo.env.  Falls back to a grey placeholder if absent.
+      DEMO_AVATAR_PATH: /run/demo_avatar
+    volumes:
+      - backend_imports_data:/app/data
+      # Bind-mount the avatar file if DEMO_AVATAR_HOST_PATH is set in the env file;
+      # fall back to /dev/null so the stack starts even without it.
+      - ${DEMO_AVATAR_HOST_PATH:-/dev/null}:/run/demo_avatar:ro
+    command: >-
+      sh -c "python -m app.wait_for_db && python scripts/seed_demo.py"
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    restart: "no"
+
+  backend:
+    ports:
+      - "127.0.0.1:${BACKEND_HOST_PORT_DEMO:-8001}:8000"
+    environment:
+      APP_ENV: production
+      DATABASE_URL: "postgresql+psycopg://demo_app:${POSTGRES_PASSWORD_DEMO_APP:?}@db:5432/personal_expense_demo"
+      CORS_ORIGINS: "https://demo.overspending-fit-calou.com"
+      DEMO_MODE: "true"
+      AVATARS_STORAGE_DIR: /app/data/avatars
+    depends_on:
+      seed:
+        condition: service_completed_successfully
+
+  frontend:
+    ports:
+      - "127.0.0.1:${FRONTEND_HOST_PORT_DEMO:-5174}:80"
+    build:
+      context: ./frontend
+      args:
+        VITE_API_BASE_URL: /api
+        VITE_DEMO_MODE: "true"
+
+volumes:
+  db_demo:

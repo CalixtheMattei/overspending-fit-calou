@@ -1,0 +1,2554 @@
+﻿{
+    "result":  [
+                   {
+                       "id":  595945,
+                       "pattern":  [
+                                       "SFR"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31379,
+                                                    "name":  "mobile_phone",
+                                                    "color":  "#C36B55",
+                                                    "icon":  "mobile",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  15,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-14T13:38:20.013Z",
+                       "updated_at":  "2024-11-14T13:38:20.013Z",
+                       "transactions_count":  32
+                   },
+                   {
+                       "id":  595989,
+                       "pattern":  [
+                                       "Epargne"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31424,
+                                                    "name":  "safety_net",
+                                                    "color":  "#63E095",
+                                                    "icon":  "shield-quartered",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  22,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-14T13:50:35.104Z",
+                       "updated_at":  "2024-11-14T13:50:35.104Z",
+                       "transactions_count":  35
+                   },
+                   {
+                       "id":  621675,
+                       "pattern":  [
+                                       "SNCF-VOYAGEURS"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31373,
+                                                    "name":  "train_tickets",
+                                                    "color":  "#DEAB5E",
+                                                    "icon":  "train",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  14,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-24T00:18:29.923Z",
+                       "updated_at":  "2024-11-24T00:18:29.923Z",
+                       "transactions_count":  46
+                   },
+                   {
+                       "id":  621672,
+                       "pattern":  [
+                                       "WWW.MYPROTEIN.COM"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  91641,
+                                                    "name":  "Prots / ComplÃ©ments",
+                                                    "color":  "#5FB4BA",
+                                                    "icon":  "utensils",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  91647,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-24T00:16:40.948Z",
+                       "updated_at":  "2024-11-24T00:16:40.948Z",
+                       "transactions_count":  6
+                   },
+                   {
+                       "id":  621676,
+                       "pattern":  [
+                                       "SNCF-VOYAGEURS\\PARIS"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31373,
+                                                    "name":  "train_tickets",
+                                                    "color":  "#DEAB5E",
+                                                    "icon":  "train",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  14,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-24T00:18:45.909Z",
+                       "updated_at":  "2024-11-24T00:18:45.909Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  621677,
+                       "pattern":  [
+                                       "ALAN"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  91644,
+                                                    "name":  "Mutuelle",
+                                                    "color":  "#E88079",
+                                                    "icon":  "bandage",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  23,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-24T00:20:50.185Z",
+                       "updated_at":  "2024-11-24T00:20:50.185Z",
+                       "transactions_count":  9
+                   },
+                   {
+                       "id":  621679,
+                       "pattern":  [
+                                       "BASIC",
+                                       "FIT"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  91645,
+                                                    "name":  "Abonnements",
+                                                    "color":  "#5FB4BA",
+                                                    "icon":  "garage",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  91647,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-24T00:22:09.308Z",
+                       "updated_at":  "2024-11-24T00:22:09.308Z",
+                       "transactions_count":  17
+                   },
+                   {
+                       "id":  621682,
+                       "pattern":  [
+                                       "WHOOP"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  91645,
+                                                    "name":  "Abonnements",
+                                                    "color":  "#5FB4BA",
+                                                    "icon":  "garage",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  91647,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-24T00:25:32.608Z",
+                       "updated_at":  "2024-11-24T00:25:32.608Z",
+                       "transactions_count":  3
+                   },
+                   {
+                       "id":  621684,
+                       "pattern":  [
+                                       "ATHLETICGREENS"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  91641,
+                                                    "name":  "Prots / ComplÃ©ments",
+                                                    "color":  "#5FB4BA",
+                                                    "icon":  "utensils",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  91647,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-24T00:26:39.727Z",
+                       "updated_at":  "2024-11-24T00:26:39.727Z",
+                       "transactions_count":  1
+                   },
+                   {
+                       "id":  595992,
+                       "pattern":  [
+                                       "PEA"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31420,
+                                                    "name":  "stocks",
+                                                    "color":  "#63E095",
+                                                    "icon":  "chart-candlestick",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  22,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-14T13:50:50.238Z",
+                       "updated_at":  "2024-11-14T13:50:50.238Z",
+                       "transactions_count":  14
+                   },
+                   {
+                       "id":  595958,
+                       "pattern":  [
+                                       "OCTOPUS"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31376,
+                                                    "name":  "electricity",
+                                                    "color":  "#C36B55",
+                                                    "icon":  "bolt",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  15,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-14T13:41:40.975Z",
+                       "updated_at":  "2024-11-14T13:41:40.975Z",
+                       "transactions_count":  16
+                   },
+                   {
+                       "id":  595959,
+                       "pattern":  [
+                                       "PATHE"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31425,
+                                                    "name":  "movie_and_theater",
+                                                    "color":  "#9E89F2",
+                                                    "icon":  "masks-theater",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  21,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-14T13:42:02.489Z",
+                       "updated_at":  "2024-11-14T13:42:02.489Z",
+                       "transactions_count":  1
+                   },
+                   {
+                       "id":  595963,
+                       "pattern":  [
+                                       "APPLE.COM/BILL\\0805540003\\"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31382,
+                                                    "name":  "bills_subscriptions",
+                                                    "color":  "#C36B55",
+                                                    "icon":  "file-contract",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  15,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-14T13:43:33.407Z",
+                       "updated_at":  "2024-11-14T13:43:33.407Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  595964,
+                       "pattern":  [
+                                       "WWW.PLANITY.COM"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31432,
+                                                    "name":  "personal_care",
+                                                    "color":  "#CF6AFF",
+                                                    "icon":  "hand-heart",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  30,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-14T13:43:54.466Z",
+                       "updated_at":  "2024-11-14T13:43:54.466Z",
+                       "transactions_count":  6
+                   },
+                   {
+                       "id":  595996,
+                       "pattern":  [
+                                       "BASIC"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  87509,
+                                                    "name":  "Fitness",
+                                                    "color":  "#C36B55",
+                                                    "icon":  "tag",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  15,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-14T13:52:12.565Z",
+                       "updated_at":  "2024-11-14T13:52:12.565Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  595967,
+                       "pattern":  [
+                                       "FORMATIONIMMO"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31434,
+                                                    "name":  "education",
+                                                    "color":  "#CF6AFF",
+                                                    "icon":  "user-graduate",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  30,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-14T13:44:12.750Z",
+                       "updated_at":  "2024-11-14T13:44:12.750Z",
+                       "transactions_count":  1
+                   },
+                   {
+                       "id":  595998,
+                       "pattern":  [
+                                       "Navigo"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31367,
+                                                    "name":  "public_transport",
+                                                    "color":  "#DEAB5E",
+                                                    "icon":  "bus",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  14,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-14T13:52:42.870Z",
+                       "updated_at":  "2024-11-14T13:52:42.870Z",
+                       "transactions_count":  8
+                   },
+                   {
+                       "id":  595974,
+                       "pattern":  [
+                                       "Crypto"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31423,
+                                                    "name":  "cryptos",
+                                                    "color":  "#63E095",
+                                                    "icon":  "bitcoin-sign",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  22,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-14T13:45:21.016Z",
+                       "updated_at":  "2024-11-14T13:45:21.016Z",
+                       "transactions_count":  1
+                   },
+                   {
+                       "id":  595978,
+                       "pattern":  [
+                                       "FATIMA"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  87518,
+                                                    "name":  "Femme de mÃ©nage ",
+                                                    "color":  "#726046",
+                                                    "icon":  "shirt",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  16,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-14T13:46:47.044Z",
+                       "updated_at":  "2024-11-14T13:46:47.044Z",
+                       "transactions_count":  3
+                   },
+                   {
+                       "id":  595984,
+                       "pattern":  [
+                                       "SALAIRE",
+                                       "KAMELEOON"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31414,
+                                                    "name":  "salary_income",
+                                                    "color":  "#77CFAC",
+                                                    "icon":  "money-bill-wave",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  20,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-14T13:49:04.310Z",
+                       "updated_at":  "2024-11-14T13:49:04.310Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  596004,
+                       "pattern":  [
+                                       "Impots"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31446,
+                                                    "name":  "income_taxes",
+                                                    "color":  "#FFC2C2",
+                                                    "icon":  "money-bill-wave",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  26,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-14T13:57:27.089Z",
+                       "updated_at":  "2024-11-14T13:57:27.089Z",
+                       "transactions_count":  39
+                   },
+                   {
+                       "id":  801624,
+                       "pattern":  [
+                                       "Girault",
+                                       "Jean",
+                                       "Loyer"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31441,
+                                                    "name":  "rent",
+                                                    "color":  "#CF6AFF",
+                                                    "icon":  "home",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  30,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-28T17:01:32.123Z",
+                       "updated_at":  "2025-01-28T17:01:32.123Z",
+                       "transactions_count":  16
+                   },
+                   {
+                       "id":  801630,
+                       "pattern":  [
+                                       "LOYER",
+                                       "OCYANE",
+                                       "HAMON"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  87698,
+                                                    "name":  "Remboursement Loyer",
+                                                    "color":  "#228C83",
+                                                    "icon":  "garage",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  25,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-28T17:02:40.647Z",
+                       "updated_at":  "2025-01-28T17:02:40.647Z",
+                       "transactions_count":  15
+                   },
+                   {
+                       "id":  780539,
+                       "pattern":  [
+                                       "VIEUX",
+                                       "AU",
+                                       "LEON\\PARIS\\"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31405,
+                                                    "name":  "alcohol_and_bars",
+                                                    "color":  "#EED7B4",
+                                                    "icon":  "beer-mug",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  18,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-20T12:56:28.703Z",
+                       "updated_at":  "2025-01-20T12:56:28.703Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  780541,
+                       "pattern":  [
+                                       "ATALANTE\\PARIS\\"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31405,
+                                                    "name":  "alcohol_and_bars",
+                                                    "color":  "#EED7B4",
+                                                    "icon":  "beer-mug",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  18,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-20T12:56:43.220Z",
+                       "updated_at":  "2025-01-20T12:56:43.220Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  780544,
+                       "pattern":  [
+                                       "HPY*L\u0027UCPA"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  107853,
+                                                    "name":  "Actis",
+                                                    "color":  "#F72487",
+                                                    "icon":  "motorcycle",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  107837,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-20T12:57:20.079Z",
+                       "updated_at":  "2025-01-20T12:57:20.079Z",
+                       "transactions_count":  6
+                   },
+                   {
+                       "id":  780548,
+                       "pattern":  [
+                                       "MAAF"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  118656,
+                                                    "name":  "Assurances Habitation/Resp Civile",
+                                                    "color":  "#CF6AFF",
+                                                    "icon":  "earth",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  30,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-20T12:59:26.761Z",
+                       "updated_at":  "2025-01-20T12:59:26.761Z",
+                       "transactions_count":  1
+                   },
+                   {
+                       "id":  780549,
+                       "pattern":  [
+                                       "COALITION"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  91641,
+                                                    "name":  "Prots / ComplÃ©ments",
+                                                    "color":  "#5FB4BA",
+                                                    "icon":  "utensils",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  91647,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-20T12:59:52.453Z",
+                       "updated_at":  "2025-01-20T12:59:52.453Z",
+                       "transactions_count":  5
+                   },
+                   {
+                       "id":  780550,
+                       "pattern":  [
+                                       "PPG*NUTRIPURE"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  91641,
+                                                    "name":  "Prots / ComplÃ©ments",
+                                                    "color":  "#5FB4BA",
+                                                    "icon":  "utensils",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  91647,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-20T13:00:03.918Z",
+                       "updated_at":  "2025-01-20T13:00:03.918Z",
+                       "transactions_count":  3
+                   },
+                   {
+                       "id":  780562,
+                       "pattern":  [
+                                       "UBR*"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  121783,
+                                                    "name":  "UBER",
+                                                    "color":  "#DEAB5E",
+                                                    "icon":  "carSide",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  14,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-20T13:12:09.205Z",
+                       "updated_at":  "2025-01-20T13:12:09.205Z",
+                       "transactions_count":  3
+                   },
+                   {
+                       "id":  597063,
+                       "pattern":  [
+                                       "AUCHAN"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31402,
+                                                    "name":  "groceries",
+                                                    "color":  "#EED7B4",
+                                                    "icon":  "salad",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  18,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-14T22:38:22.910Z",
+                       "updated_at":  "2024-11-14T22:38:22.910Z",
+                       "transactions_count":  91
+                   },
+                   {
+                       "id":  597064,
+                       "pattern":  [
+                                       "BONHOMME"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31432,
+                                                    "name":  "personal_care",
+                                                    "color":  "#CF6AFF",
+                                                    "icon":  "hand-heart",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  30,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-14T22:39:07.943Z",
+                       "updated_at":  "2024-11-14T22:39:07.943Z",
+                       "transactions_count":  3
+                   },
+                   {
+                       "id":  597066,
+                       "pattern":  [
+                                       "CGF17213PAUL3"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31403,
+                                                    "name":  "dining_out",
+                                                    "color":  "#EED7B4",
+                                                    "icon":  "utensils",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  18,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-14T22:39:55.765Z",
+                       "updated_at":  "2024-11-14T22:39:55.765Z",
+                       "transactions_count":  1
+                   },
+                   {
+                       "id":  597068,
+                       "pattern":  [
+                                       "Jean",
+                                       "Francois",
+                                       "meubles",
+                                       "MARTIN"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  87697,
+                                                    "name":  "Emprunt Meubles",
+                                                    "color":  "#228C83",
+                                                    "icon":  "tag",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  25,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-14T22:41:11.034Z",
+                       "updated_at":  "2024-11-14T22:41:11.034Z",
+                       "transactions_count":  5
+                   },
+                   {
+                       "id":  597077,
+                       "pattern":  [
+                                       "Calvin",
+                                       "Klein"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31433,
+                                                    "name":  "clothing",
+                                                    "color":  "#CF6AFF",
+                                                    "icon":  "clothes-hanger",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  30,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-14T22:46:19.597Z",
+                       "updated_at":  "2024-11-14T22:46:19.597Z",
+                       "transactions_count":  1
+                   },
+                   {
+                       "id":  597090,
+                       "pattern":  [
+                                       "Spotify"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31382,
+                                                    "name":  "bills_subscriptions",
+                                                    "color":  "#C36B55",
+                                                    "icon":  "file-contract",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  15,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-14T22:54:10.780Z",
+                       "updated_at":  "2024-11-14T22:54:10.780Z",
+                       "transactions_count":  21
+                   },
+                   {
+                       "id":  597092,
+                       "pattern":  [
+                                       "APPLE.COM/BILL"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31382,
+                                                    "name":  "bills_subscriptions",
+                                                    "color":  "#C36B55",
+                                                    "icon":  "file-contract",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  15,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-14T22:54:33.659Z",
+                       "updated_at":  "2024-11-14T22:54:33.659Z",
+                       "transactions_count":  50
+                   },
+                   {
+                       "id":  597095,
+                       "pattern":  [
+                                       "PRO+\u0026COURSES"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  87699,
+                                                    "name":  "MuseScore",
+                                                    "color":  "#C36B55",
+                                                    "icon":  "tag",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  15,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-14T22:56:47.908Z",
+                       "updated_at":  "2024-11-14T22:56:47.908Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  597096,
+                       "pattern":  [
+                                       "Globalpix"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31426,
+                                                    "name":  "sports_and_recreation",
+                                                    "color":  "#9E89F2",
+                                                    "icon":  "sportsball",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  21,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-14T22:57:08.393Z",
+                       "updated_at":  "2024-11-14T22:57:08.393Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  657353,
+                       "pattern":  [
+                                       "Finary",
+                                       "Crypto"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31423,
+                                                    "name":  "cryptos",
+                                                    "color":  "#63E095",
+                                                    "icon":  "bitcoin-sign",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  22,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-12-04T12:57:21.486Z",
+                       "updated_at":  "2024-12-04T12:57:21.486Z",
+                       "transactions_count":  3
+                   },
+                   {
+                       "id":  707034,
+                       "pattern":  [
+                                       "DICE.FM"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  107821,
+                                                    "name":  "Concerts",
+                                                    "color":  "#9E89F2",
+                                                    "icon":  "headphones",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  21,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-12-25T18:02:14.209Z",
+                       "updated_at":  "2024-12-25T18:02:14.209Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  707089,
+                       "pattern":  [
+                                       "*chatgpt",
+                                       "Openai"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31382,
+                                                    "name":  "bills_subscriptions",
+                                                    "color":  "#C36B55",
+                                                    "icon":  "file-contract",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  15,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-12-25T18:19:05.644Z",
+                       "updated_at":  "2024-12-25T18:19:05.644Z",
+                       "transactions_count":  9
+                   },
+                   {
+                       "id":  707092,
+                       "pattern":  [
+                                       "Vacances"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  107837,
+                                                    "name":  "Vacances ",
+                                                    "color":  "#F72487",
+                                                    "icon":  "piggyBank",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  null,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  false,
+                                                    "subcategories":  [
+                                                                          {
+                                                                              "id":  107852,
+                                                                              "name":  "Clubs",
+                                                                              "color":  "#F72487",
+                                                                              "icon":  "cocktail",
+                                                                              "is_custom":  true,
+                                                                              "main_category_id":  107837,
+                                                                              "target":  null,
+                                                                              "should_reach_target":  null,
+                                                                              "is_subcategory":  true,
+                                                                              "subcategories":  [
+
+                                                                                                ]
+                                                                          },
+                                                                          {
+                                                                              "id":  107854,
+                                                                              "name":  "Courses",
+                                                                              "color":  "#F72487",
+                                                                              "icon":  "vault",
+                                                                              "is_custom":  true,
+                                                                              "main_category_id":  107837,
+                                                                              "target":  null,
+                                                                              "should_reach_target":  null,
+                                                                              "is_subcategory":  true,
+                                                                              "subcategories":  [
+
+                                                                                                ]
+                                                                          },
+                                                                          {
+                                                                              "id":  107846,
+                                                                              "name":  "Restau",
+                                                                              "color":  "#F72487",
+                                                                              "icon":  "utensils",
+                                                                              "is_custom":  true,
+                                                                              "main_category_id":  107837,
+                                                                              "target":  null,
+                                                                              "should_reach_target":  null,
+                                                                              "is_subcategory":  true,
+                                                                              "subcategories":  [
+
+                                                                                                ]
+                                                                          },
+                                                                          {
+                                                                              "id":  107847,
+                                                                              "name":  "Bars",
+                                                                              "color":  "#F72487",
+                                                                              "icon":  "wineGlass",
+                                                                              "is_custom":  true,
+                                                                              "main_category_id":  107837,
+                                                                              "target":  null,
+                                                                              "should_reach_target":  null,
+                                                                              "is_subcategory":  true,
+                                                                              "subcategories":  [
+
+                                                                                                ]
+                                                                          },
+                                                                          {
+                                                                              "id":  107848,
+                                                                              "name":  "Transports",
+                                                                              "color":  "#F72487",
+                                                                              "icon":  "plane",
+                                                                              "is_custom":  true,
+                                                                              "main_category_id":  107837,
+                                                                              "target":  null,
+                                                                              "should_reach_target":  null,
+                                                                              "is_subcategory":  true,
+                                                                              "subcategories":  [
+
+                                                                                                ]
+                                                                          },
+                                                                          {
+                                                                              "id":  107853,
+                                                                              "name":  "Actis",
+                                                                              "color":  "#F72487",
+                                                                              "icon":  "motorcycle",
+                                                                              "is_custom":  true,
+                                                                              "main_category_id":  107837,
+                                                                              "target":  null,
+                                                                              "should_reach_target":  null,
+                                                                              "is_subcategory":  true,
+                                                                              "subcategories":  [
+
+                                                                                                ]
+                                                                          },
+                                                                          {
+                                                                              "id":  107849,
+                                                                              "name":  "Logement",
+                                                                              "color":  "#F72487",
+                                                                              "icon":  "garage",
+                                                                              "is_custom":  true,
+                                                                              "main_category_id":  107837,
+                                                                              "target":  null,
+                                                                              "should_reach_target":  null,
+                                                                              "is_subcategory":  true,
+                                                                              "subcategories":  [
+
+                                                                                                ]
+                                                                          },
+                                                                          {
+                                                                              "id":  136258,
+                                                                              "name":  "Week-end en amoureux",
+                                                                              "color":  "#F72487",
+                                                                              "icon":  "tag",
+                                                                              "is_custom":  true,
+                                                                              "main_category_id":  107837,
+                                                                              "target":  null,
+                                                                              "should_reach_target":  null,
+                                                                              "is_subcategory":  true,
+                                                                              "subcategories":  [
+
+                                                                                                ]
+                                                                          }
+                                                                      ]
+                                                },
+                       "created_at":  "2024-12-25T18:20:57.601Z",
+                       "updated_at":  "2024-12-25T18:20:57.601Z",
+                       "transactions_count":  4
+                   },
+                   {
+                       "id":  707023,
+                       "pattern":  [
+                                       "ACT*time"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  107816,
+                                                    "name":  "Evenements sportifs",
+                                                    "color":  "#5FB4BA",
+                                                    "icon":  "football",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  91647,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-12-25T18:00:03.144Z",
+                       "updated_at":  "2024-12-25T18:00:03.144Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  707111,
+                       "pattern":  [
+                                       "vacances",
+                                       "Train"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  107848,
+                                                    "name":  "Transports",
+                                                    "color":  "#F72487",
+                                                    "icon":  "plane",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  107837,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-12-25T18:31:57.545Z",
+                       "updated_at":  "2024-12-25T18:31:57.545Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  707008,
+                       "pattern":  [
+                                       "Bulk"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  91641,
+                                                    "name":  "Prots / ComplÃ©ments",
+                                                    "color":  "#5FB4BA",
+                                                    "icon":  "utensils",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  91647,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-12-25T17:56:11.967Z",
+                       "updated_at":  "2024-12-25T17:56:11.967Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  707014,
+                       "pattern":  [
+                                       "FLORES"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31405,
+                                                    "name":  "alcohol_and_bars",
+                                                    "color":  "#EED7B4",
+                                                    "icon":  "beer-mug",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  18,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-12-25T17:57:49.155Z",
+                       "updated_at":  "2024-12-25T17:57:49.155Z",
+                       "transactions_count":  7
+                   },
+                   {
+                       "id":  707029,
+                       "pattern":  [
+                                       "GROUND",
+                                       "CONTROL"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31406,
+                                                    "name":  "coffee_shop",
+                                                    "color":  "#EED7B4",
+                                                    "icon":  "cup-togo",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  18,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-12-25T18:01:17.433Z",
+                       "updated_at":  "2024-12-25T18:01:17.433Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  707038,
+                       "pattern":  [
+                                       "PAVILLON",
+                                       "DES",
+                                       "CANA"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31405,
+                                                    "name":  "alcohol_and_bars",
+                                                    "color":  "#EED7B4",
+                                                    "icon":  "beer-mug",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  18,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-12-25T18:02:58.929Z",
+                       "updated_at":  "2024-12-25T18:02:58.929Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  707040,
+                       "pattern":  [
+                                       "405"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31405,
+                                                    "name":  "alcohol_and_bars",
+                                                    "color":  "#EED7B4",
+                                                    "icon":  "beer-mug",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  18,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-12-25T18:04:01.005Z",
+                       "updated_at":  "2024-12-25T18:04:01.005Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  707076,
+                       "pattern":  [
+                                       "BSPORT",
+                                       "R2",
+                                       "Training"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  91645,
+                                                    "name":  "Abonnements",
+                                                    "color":  "#5FB4BA",
+                                                    "icon":  "garage",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  91647,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-12-25T18:16:42.467Z",
+                       "updated_at":  "2024-12-25T18:16:42.467Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  707084,
+                       "pattern":  [
+                                       "Back",
+                                       "Market"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  91643,
+                                                    "name":  "Matos",
+                                                    "color":  "#726046",
+                                                    "icon":  "cameraMovie",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  16,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-12-25T18:18:01.829Z",
+                       "updated_at":  "2024-12-25T18:18:01.829Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  707094,
+                       "pattern":  [
+                                       "STAYCATION"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  107837,
+                                                    "name":  "Vacances ",
+                                                    "color":  "#F72487",
+                                                    "icon":  "piggyBank",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  null,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  false,
+                                                    "subcategories":  [
+                                                                          {
+                                                                              "id":  107852,
+                                                                              "name":  "Clubs",
+                                                                              "color":  "#F72487",
+                                                                              "icon":  "cocktail",
+                                                                              "is_custom":  true,
+                                                                              "main_category_id":  107837,
+                                                                              "target":  null,
+                                                                              "should_reach_target":  null,
+                                                                              "is_subcategory":  true,
+                                                                              "subcategories":  [
+
+                                                                                                ]
+                                                                          },
+                                                                          {
+                                                                              "id":  107854,
+                                                                              "name":  "Courses",
+                                                                              "color":  "#F72487",
+                                                                              "icon":  "vault",
+                                                                              "is_custom":  true,
+                                                                              "main_category_id":  107837,
+                                                                              "target":  null,
+                                                                              "should_reach_target":  null,
+                                                                              "is_subcategory":  true,
+                                                                              "subcategories":  [
+
+                                                                                                ]
+                                                                          },
+                                                                          {
+                                                                              "id":  107846,
+                                                                              "name":  "Restau",
+                                                                              "color":  "#F72487",
+                                                                              "icon":  "utensils",
+                                                                              "is_custom":  true,
+                                                                              "main_category_id":  107837,
+                                                                              "target":  null,
+                                                                              "should_reach_target":  null,
+                                                                              "is_subcategory":  true,
+                                                                              "subcategories":  [
+
+                                                                                                ]
+                                                                          },
+                                                                          {
+                                                                              "id":  107847,
+                                                                              "name":  "Bars",
+                                                                              "color":  "#F72487",
+                                                                              "icon":  "wineGlass",
+                                                                              "is_custom":  true,
+                                                                              "main_category_id":  107837,
+                                                                              "target":  null,
+                                                                              "should_reach_target":  null,
+                                                                              "is_subcategory":  true,
+                                                                              "subcategories":  [
+
+                                                                                                ]
+                                                                          },
+                                                                          {
+                                                                              "id":  107848,
+                                                                              "name":  "Transports",
+                                                                              "color":  "#F72487",
+                                                                              "icon":  "plane",
+                                                                              "is_custom":  true,
+                                                                              "main_category_id":  107837,
+                                                                              "target":  null,
+                                                                              "should_reach_target":  null,
+                                                                              "is_subcategory":  true,
+                                                                              "subcategories":  [
+
+                                                                                                ]
+                                                                          },
+                                                                          {
+                                                                              "id":  107853,
+                                                                              "name":  "Actis",
+                                                                              "color":  "#F72487",
+                                                                              "icon":  "motorcycle",
+                                                                              "is_custom":  true,
+                                                                              "main_category_id":  107837,
+                                                                              "target":  null,
+                                                                              "should_reach_target":  null,
+                                                                              "is_subcategory":  true,
+                                                                              "subcategories":  [
+
+                                                                                                ]
+                                                                          },
+                                                                          {
+                                                                              "id":  107849,
+                                                                              "name":  "Logement",
+                                                                              "color":  "#F72487",
+                                                                              "icon":  "garage",
+                                                                              "is_custom":  true,
+                                                                              "main_category_id":  107837,
+                                                                              "target":  null,
+                                                                              "should_reach_target":  null,
+                                                                              "is_subcategory":  true,
+                                                                              "subcategories":  [
+
+                                                                                                ]
+                                                                          },
+                                                                          {
+                                                                              "id":  136258,
+                                                                              "name":  "Week-end en amoureux",
+                                                                              "color":  "#F72487",
+                                                                              "icon":  "tag",
+                                                                              "is_custom":  true,
+                                                                              "main_category_id":  107837,
+                                                                              "target":  null,
+                                                                              "should_reach_target":  null,
+                                                                              "is_subcategory":  true,
+                                                                              "subcategories":  [
+
+                                                                                                ]
+                                                                          }
+                                                                      ]
+                                                },
+                       "created_at":  "2024-12-25T18:21:22.924Z",
+                       "updated_at":  "2024-12-25T18:21:22.924Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  757813,
+                       "pattern":  [
+                                       "SNCF",
+                                       "INTERNET"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31373,
+                                                    "name":  "train_tickets",
+                                                    "color":  "#DEAB5E",
+                                                    "icon":  "train",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  14,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-11T08:04:09.380Z",
+                       "updated_at":  "2025-01-11T08:04:09.380Z",
+                       "transactions_count":  5
+                   },
+                   {
+                       "id":  788158,
+                       "pattern":  [
+                                       "titres-resto",
+                                       "CrÃ©dit"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31414,
+                                                    "name":  "salary_income",
+                                                    "color":  "#77CFAC",
+                                                    "icon":  "money-bill-wave",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  20,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-23T17:21:39.107Z",
+                       "updated_at":  "2025-01-23T17:21:39.107Z",
+                       "transactions_count":  19
+                   },
+                   {
+                       "id":  788173,
+                       "pattern":  [
+                                       "UBER",
+                                       "EATS"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31404,
+                                                    "name":  "fast_food",
+                                                    "color":  "#EED7B4",
+                                                    "icon":  "burger",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  18,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-23T17:31:19.134Z",
+                       "updated_at":  "2025-01-23T17:31:19.134Z",
+                       "transactions_count":  2
+                   },
+                   {
+                       "id":  788165,
+                       "pattern":  [
+                                       "CB*3929",
+                                       "Swile"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  123082,
+                                                    "name":  "Empreintes bancaires",
+                                                    "color":  "#FFFFFF",
+                                                    "icon":  "piggyBank",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  null,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  false,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-23T17:28:03.482Z",
+                       "updated_at":  "2025-01-23T17:28:03.482Z",
+                       "transactions_count":  61
+                   },
+                   {
+                       "id":  788169,
+                       "pattern":  [
+                                       "Dan",
+                                       "Koe"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  123270,
+                                                    "name":  "Formation en ligne",
+                                                    "color":  "#FFFFFF",
+                                                    "icon":  "tag",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  118647,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-23T17:30:45.840Z",
+                       "updated_at":  "2025-01-23T17:30:45.840Z",
+                       "transactions_count":  2
+                   },
+                   {
+                       "id":  788171,
+                       "pattern":  [
+                                       "MONOPRIX"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31402,
+                                                    "name":  "groceries",
+                                                    "color":  "#EED7B4",
+                                                    "icon":  "salad",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  18,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-23T17:31:01.723Z",
+                       "updated_at":  "2025-01-23T17:31:01.723Z",
+                       "transactions_count":  8
+                   },
+                   {
+                       "id":  788175,
+                       "pattern":  [
+                                       "O",
+                                       "TACOS"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31404,
+                                                    "name":  "fast_food",
+                                                    "color":  "#EED7B4",
+                                                    "icon":  "burger",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  18,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-23T17:32:44.673Z",
+                       "updated_at":  "2025-01-23T17:32:44.673Z",
+                       "transactions_count":  2
+                   },
+                   {
+                       "id":  788180,
+                       "pattern":  [
+                                       "CANTINE",
+                                       "BRET"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31403,
+                                                    "name":  "dining_out",
+                                                    "color":  "#EED7B4",
+                                                    "icon":  "utensils",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  18,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-23T17:34:08.720Z",
+                       "updated_at":  "2025-01-23T17:34:08.720Z",
+                       "transactions_count":  2
+                   },
+                   {
+                       "id":  788181,
+                       "pattern":  [
+                                       "Chamas",
+                                       "Tacos"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31404,
+                                                    "name":  "fast_food",
+                                                    "color":  "#EED7B4",
+                                                    "icon":  "burger",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  18,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-23T17:34:24.004Z",
+                       "updated_at":  "2025-01-23T17:34:24.004Z",
+                       "transactions_count":  1
+                   },
+                   {
+                       "id":  622271,
+                       "pattern":  [
+                                       "FINARY",
+                                       "PLUS"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31382,
+                                                    "name":  "bills_subscriptions",
+                                                    "color":  "#C36B55",
+                                                    "icon":  "file-contract",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  15,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2024-11-24T09:40:35.643Z",
+                       "updated_at":  "2025-01-23T10:15:42.240Z",
+                       "transactions_count":  2
+                   },
+                   {
+                       "id":  763452,
+                       "pattern":  [
+                                       "75PARIS"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31396,
+                                                    "name":  "withdrawal",
+                                                    "color":  "#EDE1D4",
+                                                    "icon":  "money-from-bracket",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  17,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-13T07:14:45.336Z",
+                       "updated_at":  "2025-01-13T07:14:45.336Z",
+                       "transactions_count":  2
+                   },
+                   {
+                       "id":  763459,
+                       "pattern":  [
+                                       "JEUNE-iDTGVMAX2"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31373,
+                                                    "name":  "train_tickets",
+                                                    "color":  "#DEAB5E",
+                                                    "icon":  "train",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  14,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-13T07:30:21.472Z",
+                       "updated_at":  "2025-01-13T07:30:21.472Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  763460,
+                       "pattern":  [
+                                       "bsport.io"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  91645,
+                                                    "name":  "Abonnements",
+                                                    "color":  "#5FB4BA",
+                                                    "icon":  "garage",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  91647,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-13T07:30:39.951Z",
+                       "updated_at":  "2025-01-13T07:30:39.951Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  763462,
+                       "pattern":  [
+                                       "EXPRESS",
+                                       "U"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31402,
+                                                    "name":  "groceries",
+                                                    "color":  "#EED7B4",
+                                                    "icon":  "salad",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  18,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-13T07:31:09.179Z",
+                       "updated_at":  "2025-01-13T07:31:09.179Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  763469,
+                       "pattern":  [
+                                       "VELOV"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31367,
+                                                    "name":  "public_transport",
+                                                    "color":  "#DEAB5E",
+                                                    "icon":  "bus",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  14,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-13T07:35:33.255Z",
+                       "updated_at":  "2025-01-13T07:35:33.255Z",
+                       "transactions_count":  5
+                   },
+                   {
+                       "id":  763482,
+                       "pattern":  [
+                                       "KAMELEOON"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31414,
+                                                    "name":  "salary_income",
+                                                    "color":  "#77CFAC",
+                                                    "icon":  "money-bill-wave",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  20,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-13T07:45:10.976Z",
+                       "updated_at":  "2025-01-13T07:45:10.976Z",
+                       "transactions_count":  14
+                   },
+                   {
+                       "id":  788183,
+                       "pattern":  [
+                                       "Bleue",
+                                       "Tomate"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31403,
+                                                    "name":  "dining_out",
+                                                    "color":  "#EED7B4",
+                                                    "icon":  "utensils",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  18,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-23T17:35:29.589Z",
+                       "updated_at":  "2025-01-23T17:35:29.589Z",
+                       "transactions_count":  1
+                   },
+                   {
+                       "id":  787444,
+                       "pattern":  [
+                                       "Crypo",
+                                       "Finary"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31423,
+                                                    "name":  "cryptos",
+                                                    "color":  "#63E095",
+                                                    "icon":  "bitcoin-sign",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  22,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-23T10:16:50.944Z",
+                       "updated_at":  "2025-01-23T10:16:50.944Z",
+                       "transactions_count":  13
+                   },
+                   {
+                       "id":  788187,
+                       "pattern":  [
+                                       "Nintendo"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  123278,
+                                                    "name":  "Nintendo",
+                                                    "color":  "#C36B55",
+                                                    "icon":  "tag",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  15,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-23T17:39:38.306Z",
+                       "updated_at":  "2025-01-23T17:39:38.306Z",
+                       "transactions_count":  3
+                   },
+                   {
+                       "id":  787450,
+                       "pattern":  [
+                                       "Swile\\Montpellier\\",
+                                       "FR"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  123082,
+                                                    "name":  "Empreintes bancaires",
+                                                    "color":  "#FFFFFF",
+                                                    "icon":  "piggyBank",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  null,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  false,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-23T10:17:46.662Z",
+                       "updated_at":  "2025-01-23T10:17:46.662Z",
+                       "transactions_count":  3
+                   },
+                   {
+                       "id":  783602,
+                       "pattern":  [
+                                       "APPLE.COM/BILL\\ITUNES.COM\\"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  122288,
+                                                    "name":  "Abonnement / CrÃ©ation de Contenu",
+                                                    "color":  "#726046",
+                                                    "icon":  "mobile",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  16,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-21T15:47:36.009Z",
+                       "updated_at":  "2025-01-21T15:47:36.009Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  783594,
+                       "pattern":  [
+                                       "Virement",
+                                       "interne"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31452,
+                                                    "name":  "internal_transfer",
+                                                    "color":  "#59BDC5",
+                                                    "icon":  "money-bill-transfer",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  27,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-21T15:44:01.685Z",
+                       "updated_at":  "2025-01-21T15:44:01.685Z",
+                       "transactions_count":  61
+                   },
+                   {
+                       "id":  783615,
+                       "pattern":  [
+                                       "BREAK",
+                                       "POVERT"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  122292,
+                                                    "name":  "Dons",
+                                                    "color":  "#FFB8D9",
+                                                    "icon":  "seedling",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  null,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  false,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-21T15:51:55.472Z",
+                       "updated_at":  "2025-01-21T15:51:55.472Z",
+                       "transactions_count":  13
+                   },
+                   {
+                       "id":  783618,
+                       "pattern":  [
+                                       "LPO"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  122292,
+                                                    "name":  "Dons",
+                                                    "color":  "#FFB8D9",
+                                                    "icon":  "seedling",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  null,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  false,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-21T15:52:11.721Z",
+                       "updated_at":  "2025-01-21T15:52:11.721Z",
+                       "transactions_count":  15
+                   },
+                   {
+                       "id":  783627,
+                       "pattern":  [
+                                       "FOIR\u0027FOUILLE"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  122294,
+                                                    "name":  "Cadeaux offerts",
+                                                    "color":  "#1F4CFF",
+                                                    "icon":  "cake",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  91636,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-21T15:55:38.948Z",
+                       "updated_at":  "2025-01-21T15:55:38.948Z",
+                       "transactions_count":  4
+                   },
+                   {
+                       "id":  791632,
+                       "pattern":  [
+                                       "LA",
+                                       "CIDRERIE"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31405,
+                                                    "name":  "alcohol_and_bars",
+                                                    "color":  "#EED7B4",
+                                                    "icon":  "beer-mug",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  18,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-01-24T22:37:56.355Z",
+                       "updated_at":  "2025-01-24T22:37:56.355Z",
+                       "transactions_count":  1
+                   },
+                   {
+                       "id":  862096,
+                       "pattern":  [
+                                       "Ostheo"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  91639,
+                                                    "name":  "OsthÃ©o",
+                                                    "color":  "#5FB4BA",
+                                                    "icon":  "bandage",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  91647,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-02-23T10:40:31.910Z",
+                       "updated_at":  "2025-02-23T10:40:31.910Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  870591,
+                       "pattern":  [
+                                       "CLASSPASS*"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  91645,
+                                                    "name":  "Abonnements",
+                                                    "color":  "#5FB4BA",
+                                                    "icon":  "garage",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  91647,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-02-26T16:32:57.083Z",
+                       "updated_at":  "2025-02-26T16:32:57.083Z",
+                       "transactions_count":  10
+                   },
+                   {
+                       "id":  907439,
+                       "pattern":  [
+                                       "Good",
+                                       "News",
+                                       "La",
+                                       "Fayette"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31406,
+                                                    "name":  "coffee_shop",
+                                                    "color":  "#EED7B4",
+                                                    "icon":  "cup-togo",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  18,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-03-17T17:24:23.387Z",
+                       "updated_at":  "2025-03-17T17:24:23.387Z",
+                       "transactions_count":  2
+                   },
+                   {
+                       "id":  883972,
+                       "pattern":  [
+                                       "COALITION\\0650424256\\"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  91641,
+                                                    "name":  "Prots / ComplÃ©ments",
+                                                    "color":  "#5FB4BA",
+                                                    "icon":  "utensils",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  91647,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-03-05T07:30:04.737Z",
+                       "updated_at":  "2025-03-05T07:30:04.737Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  883974,
+                       "pattern":  [
+                                       "STAS"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31367,
+                                                    "name":  "public_transport",
+                                                    "color":  "#DEAB5E",
+                                                    "icon":  "bus",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  14,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-03-05T07:31:02.414Z",
+                       "updated_at":  "2025-03-05T07:31:02.414Z",
+                       "transactions_count":  2
+                   },
+                   {
+                       "id":  907431,
+                       "pattern":  [
+                                       "COMUTITRES"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31367,
+                                                    "name":  "public_transport",
+                                                    "color":  "#DEAB5E",
+                                                    "icon":  "bus",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  14,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-03-17T17:20:50.837Z",
+                       "updated_at":  "2025-03-17T17:20:50.837Z",
+                       "transactions_count":  7
+                   },
+                   {
+                       "id":  1027414,
+                       "pattern":  [
+                                       "FRANPRIX"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31402,
+                                                    "name":  "groceries",
+                                                    "color":  "#EED7B4",
+                                                    "icon":  "salad",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  18,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-04-29T14:32:28.704Z",
+                       "updated_at":  "2025-04-29T14:32:28.704Z",
+                       "transactions_count":  5
+                   },
+                   {
+                       "id":  1027419,
+                       "pattern":  [
+                                       "DABABI",
+                                       "YZ"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31407,
+                                                    "name":  "snacks",
+                                                    "color":  "#EED7B4",
+                                                    "icon":  "cookie-bite",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  18,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-04-29T14:34:56.530Z",
+                       "updated_at":  "2025-04-29T14:34:56.530Z",
+                       "transactions_count":  2
+                   },
+                   {
+                       "id":  1027423,
+                       "pattern":  [
+                                       "TCL"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31367,
+                                                    "name":  "public_transport",
+                                                    "color":  "#DEAB5E",
+                                                    "icon":  "bus",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  14,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-04-29T14:36:40.826Z",
+                       "updated_at":  "2025-04-29T14:36:40.826Z",
+                       "transactions_count":  12
+                   },
+                   {
+                       "id":  1042296,
+                       "pattern":  [
+                                       "MyProtein"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  91641,
+                                                    "name":  "Prots / ComplÃ©ments",
+                                                    "color":  "#5FB4BA",
+                                                    "icon":  "utensils",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  91647,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-05-06T10:40:39.622Z",
+                       "updated_at":  "2025-05-06T10:40:39.622Z",
+                       "transactions_count":  19
+                   },
+                   {
+                       "id":  1133108,
+                       "pattern":  [
+                                       "FLORES\\PARIS\\"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31405,
+                                                    "name":  "alcohol_and_bars",
+                                                    "color":  "#EED7B4",
+                                                    "icon":  "beer-mug",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  18,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-06-17T14:42:13.733Z",
+                       "updated_at":  "2025-06-17T14:42:13.733Z",
+                       "transactions_count":  0
+                   },
+                   {
+                       "id":  1133123,
+                       "pattern":  [
+                                       "HYROX"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  107816,
+                                                    "name":  "Evenements sportifs",
+                                                    "color":  "#5FB4BA",
+                                                    "icon":  "football",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  91647,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-06-17T14:47:54.600Z",
+                       "updated_at":  "2025-06-17T14:47:54.600Z",
+                       "transactions_count":  6
+                   },
+                   {
+                       "id":  1133131,
+                       "pattern":  [
+                                       "PRELEVEMENT",
+                                       "SALAIRE",
+                                       "CESU"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  87518,
+                                                    "name":  "Femme de mÃ©nage ",
+                                                    "color":  "#726046",
+                                                    "icon":  "shirt",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  16,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-06-17T14:50:34.430Z",
+                       "updated_at":  "2025-06-17T14:50:34.430Z",
+                       "transactions_count":  13
+                   },
+                   {
+                       "id":  1133133,
+                       "pattern":  [
+                                       "UCPA",
+                                       "CAMARG2",
+                                       "PORT"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  107847,
+                                                    "name":  "Bars",
+                                                    "color":  "#F72487",
+                                                    "icon":  "wineGlass",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  107837,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-06-17T14:51:24.997Z",
+                       "updated_at":  "2025-06-17T14:51:24.997Z",
+                       "transactions_count":  4
+                   },
+                   {
+                       "id":  1337430,
+                       "pattern":  [
+                                       "Velo"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  119496,
+                                                    "name":  "Matos",
+                                                    "color":  "#5FB4BA",
+                                                    "icon":  "motorcycle",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  91647,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-09-05T12:45:55.394Z",
+                       "updated_at":  "2025-09-05T12:45:55.394Z",
+                       "transactions_count":  1
+                   },
+                   {
+                       "id":  1337448,
+                       "pattern":  [
+                                       "Garden",
+                                       "Mister"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  31403,
+                                                    "name":  "dining_out",
+                                                    "color":  "#EED7B4",
+                                                    "icon":  "utensils",
+                                                    "is_custom":  false,
+                                                    "main_category_id":  18,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-09-05T13:03:23.778Z",
+                       "updated_at":  "2025-09-05T13:03:23.778Z",
+                       "transactions_count":  7
+                   },
+                   {
+                       "id":  1337452,
+                       "pattern":  [
+                                       "CONSULTING",
+                                       "MAT"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  123270,
+                                                    "name":  "Formation en ligne",
+                                                    "color":  "#FFFFFF",
+                                                    "icon":  "tag",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  118647,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-09-05T13:09:19.092Z",
+                       "updated_at":  "2025-09-05T13:09:19.092Z",
+                       "transactions_count":  6
+                   },
+                   {
+                       "id":  1337457,
+                       "pattern":  [
+                                       "elevenlabs.io"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  122288,
+                                                    "name":  "Abonnement / CrÃ©ation de Contenu",
+                                                    "color":  "#726046",
+                                                    "icon":  "mobile",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  16,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-09-05T13:12:50.268Z",
+                       "updated_at":  "2025-09-05T13:12:50.268Z",
+                       "transactions_count":  2
+                   },
+                   {
+                       "id":  1337460,
+                       "pattern":  [
+                                       "LIME*TRAJET",
+                                       "KKGY"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  226569,
+                                                    "name":  "Lime",
+                                                    "color":  "#DEAB5E",
+                                                    "icon":  "tag",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  14,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-09-05T13:13:55.934Z",
+                       "updated_at":  "2025-09-05T13:13:55.934Z",
+                       "transactions_count":  3
+                   },
+                   {
+                       "id":  1496845,
+                       "pattern":  [
+                                       "DECATHLON",
+                                       "ROSA"
+                                   ],
+                       "transaction_category":  {
+                                                    "id":  119496,
+                                                    "name":  "Matos",
+                                                    "color":  "#5FB4BA",
+                                                    "icon":  "motorcycle",
+                                                    "is_custom":  true,
+                                                    "main_category_id":  91647,
+                                                    "target":  null,
+                                                    "should_reach_target":  null,
+                                                    "is_subcategory":  true,
+                                                    "subcategories":  [
+
+                                                                      ]
+                                                },
+                       "created_at":  "2025-11-02T20:53:53.668Z",
+                       "updated_at":  "2025-11-02T20:53:53.668Z",
+                       "transactions_count":  8
+                   }
+               ],
+    "message":  "OK",
+    "error":  null
+}

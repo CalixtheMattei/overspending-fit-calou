@@ -1,0 +1,105 @@
+services:
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-personal_expense}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-personal_expense} -h 127.0.0.1"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 5s
+    expose:
+      - "5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  migrate:
+    build: ./backend
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_HOST: ${POSTGRES_HOST:-db}
+      POSTGRES_PORT: ${POSTGRES_PORT:-5432}
+      POSTGRES_DB: ${POSTGRES_DB:-personal_expense}
+      CORS_ORIGINS: "${CORS_ORIGINS:-[\"http://localhost:5173\"]}"
+      APP_ENV: development
+      IMPORTS_STORAGE_DIR: /app/data/imports
+      AVATARS_STORAGE_DIR: /app/data/avatars
+      WAIT_FOR_DB_TIMEOUT: ${WAIT_FOR_DB_TIMEOUT:-60}
+      WAIT_FOR_DB_INTERVAL: ${WAIT_FOR_DB_INTERVAL:-1}
+    command: >-
+      sh -c "python -m app.wait_for_db && alembic upgrade head"
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: "no"
+
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_HOST: ${POSTGRES_HOST:-db}
+      POSTGRES_PORT: ${POSTGRES_PORT:-5432}
+      POSTGRES_DB: ${POSTGRES_DB:-personal_expense}
+      CORS_ORIGINS: "${CORS_ORIGINS:-[\"http://localhost:5173\"]}"
+      APP_ENV: development
+      IMPORTS_STORAGE_DIR: /app/data/imports
+      AVATARS_STORAGE_DIR: /app/data/avatars
+      WAIT_FOR_DB_TIMEOUT: ${WAIT_FOR_DB_TIMEOUT:-60}
+      WAIT_FOR_DB_INTERVAL: ${WAIT_FOR_DB_INTERVAL:-1}
+    command: >-
+      uvicorn app.main:app --host 0.0.0.0 --port 8000
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import sys,urllib.request;sys.exit(0 if urllib.request.urlopen('http://localhost:8000/health', timeout=2).status == 200 else 1)"
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    expose:
+      - "8000"
+    volumes:
+      - backend_imports_data:/app/data
+
+  frontend:
+    restart: unless-stopped
+    build:
+      context: ./frontend
+      args:
+        VITE_API_BASE_URL: /api
+    environment:
+      VITE_API_BASE_URL: /api
+    depends_on:
+      backend:
+        condition: service_healthy
+    expose:
+      - "80"
+
+  mcp:
+    build: ./mcp-server
+    restart: unless-stopped
+    environment:
+      API_BASE_URL: http://backend:8000
+      MCP_TRANSPORT: sse
+      MCP_PORT: "3001"
+    expose:
+      - "3001"
+    depends_on:
+      backend:
+        condition: service_healthy
+
+volumes:
+  postgres_data:
+  backend_imports_data:

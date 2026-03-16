@@ -1,0 +1,15 @@
+services:
+  backend:
+    ports:
+      - "127.0.0.1:${BACKEND_HOST_PORT:-8000}:8000"
+    environment:
+      APP_ENV: "${APP_ENV:-production}"
+      CORS_ORIGINS: "${CORS_ORIGINS:-[\"http://localhost:5173\"]}"
+
+  frontend:
+    ports:
+      - "127.0.0.1:${FRONTEND_HOST_PORT:-5173}:80"
+
+  mcp:
+    ports:
+      - "127.0.0.1:${MCP_HOST_PORT:-3001}:3001"

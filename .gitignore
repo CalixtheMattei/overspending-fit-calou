@@ -1,0 +1,52 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+frontend/node_modules
+frontend/dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.env
+backend/.venv
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.ruff_cache/
+backend/*.egg-info/
+__pycache__/
+*.py[cod]
+
+# Sensitive / personal data
+docs/configuration_categories.json
+docs/transactions_rules.json
+
+# OS / temp files
+nul
+docs/_tmp_write_test.txt
+Thumbs.db
+*.tmp
+
+# Local MCP server config (contains machine-specific paths)
+.mcp.json
+mcp-server/.venv
+
+# Claude Code local settings
+.claude/settings.local.json
