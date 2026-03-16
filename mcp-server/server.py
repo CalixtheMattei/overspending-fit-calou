@@ -17,7 +17,7 @@ import os
 sys.path.insert(0, os.path.dirname(__file__))
 
 from mcp.server.fastmcp import FastMCP
-from tools import transactions, analytics, moments, categories, payees, rules
+from tools import transactions, analytics, moments, categories, payees, rules, internal_accounts
 
 _transport = os.getenv("MCP_TRANSPORT", "stdio")
 _port = int(os.getenv("MCP_PORT", "3001"))
@@ -31,6 +31,7 @@ moments.register(mcp)
 categories.register(mcp)
 payees.register(mcp)
 rules.register(mcp)
+internal_accounts.register(mcp)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="personal-expense MCP server")
