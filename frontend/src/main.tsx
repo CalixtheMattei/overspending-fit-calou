@@ -26,7 +26,7 @@ createRoot(document.getElementById("root")!).render(
                     <RouteProvider>
                         <Routes>
                             <Route path="/" element={<AppShell />}>
-                                <Route index element={<Navigate to="/imports" replace />} />
+                                <Route index element={<Navigate to="/analytics" replace />} />
                                 <Route path="imports" element={<ImportsPage />} />
                                 <Route path="imports/:importId" element={<ImportsPage />} />
                                 <Route path="inbox" element={<Navigate to="/ledger" replace />} />
